@@ -20,13 +20,18 @@ It shows:
 
 1. **Create your copy.** Click **Use this template** → **Create a new repository**. Keep the name `github-readme`
    or pick another one and use it in the links below.
-2. **Create a token.** Go to [Settings → Developer settings → Personal access tokens (classic)](https://github.com/settings/tokens/new?scopes=repo,read:org,read:user&description=github-readme)
+2. **Create a classic token.** Go to [Settings → Developer settings → Personal access tokens (classic)](https://github.com/settings/tokens/new?scopes=repo,read:org&description=github-readme)
    and create a token with these scopes:
-   - `repo`: read private repos and private contributions,
-   - `read:org`: find your organizations and their private repos,
-   - `read:user`: read your profile.
+   - `repo`: read private repos and private contributions. GitHub selects all its sub-scopes; classic tokens have
+     no read-only option for private repos.
+   - `read:org` (under `admin:org`): find your organizations and their private repos.
 
-   Set the expiration to what you are comfortable with. When it expires, the daily run fails until you add a new one.
+   Use a classic token, not a fine-grained one: a fine-grained token covers only one owner, so it cannot read your
+   repos and several organizations at once. If you set `"includePrivate": false`, a classic token with no scopes is
+   enough.
+
+   The generator only reads data, but the token can do more, so keep it only in the secret below and set an
+   expiration date. When it expires, the daily run fails until you add a new one.
 3. **Add the token as a secret.** In your copy go to **Settings → Secrets and variables → Actions → New repository
    secret**, name it `ACCESS_TOKEN` and paste the token.
 4. **Edit [`config.json`](config.json)** (see [Configuration](#configuration)). Committing it starts a run.

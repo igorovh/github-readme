@@ -1,0 +1,15 @@
+{
+  "name": "igor",
+  "greeting": "hi, i’m",
+  "bio": [
+    "developer, mostly typescript and java.",
+    "building **Enhancer**, a browser extension for twitch and kick."
+  ],
+  "owners": "auto",
+  "includePrivate": true,
+  "excludeRepos": ["igorovh/github-readme"],
+  "excludeLanguages": [],
+  "languages": 7,
+  "tokenmaxxing": "igorovh",
+  "models": 5
+}

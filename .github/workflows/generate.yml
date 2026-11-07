@@ -1,0 +1,55 @@
+name: Generate images
+
+on:
+  push:
+    branches: [main]
+    paths: ["config.json", "src/**", ".github/workflows/generate.yml"]
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      # The previous output holds the cache of finished years and a fallback for tokenmaxxing outages.
+      - name: Restore previous output
+        run: |
+          mkdir -p out
+          if git ls-remote --exit-code --heads origin generated > /dev/null; then
+            git fetch --depth=1 origin generated
+            git archive FETCH_HEAD | tar -x -C out
+          fi
+
+      - name: Generate
+        run: node src/main.ts
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          OUT_DIR: out
+
+      # One force-pushed commit keeps the branch from growing with every daily image.
+      - name: Publish to the generated branch
+        working-directory: out
+        run: |
+          git init -q -b generated
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "Update generated images"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" generated
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

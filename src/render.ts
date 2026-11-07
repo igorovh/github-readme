@@ -179,7 +179,7 @@ function aiSection(config: Config, ai: AiStats, t: Theme, y: number, ms: number)
   const slices = modelShares(ai.days, config.models, t);
   const sx = X1 - 392;
   return {
-    height: 214,
+    height: 200,
     body: `
 ${eyebrow(X0, y, "AI usage", ms)}
 <text x="${X1}" y="${y}" text-anchor="end" font-size="10" class="up" style="${delay(ms)}">via tokenmaxxing</text>
@@ -189,8 +189,8 @@ ${stat(sx, y + 52, `$${int(ai.spendUsd)}`, "spent", 26, ms + 120)}
 ${stat(sx + 104, y + 52, int(ai.activeDays), "active days", 26, ms + 160)}
 ${stat(sx + 208, y + 52, `${ai.longestStreakDays}d`, "longest streak", 26, ms + 200)}
 ${stat(sx + 312, y + 52, ai.leaderboardRank ? `#${ai.leaderboardRank}` : "–", "leaderboard", 26, ms + 240)}
-${stackedBar("models", X0, y + 134, X1 - X0, slices, ms + 180)}
-${legend(slices, X0, y + 166, X1 - X0, 3, ms + 180)}`,
+${stackedBar("models", X0, y + 120, X1 - X0, slices, ms + 180)}
+${legend(slices, X0, y + 152, X1 - X0, 3, ms + 180)}`,
   };
 }
 

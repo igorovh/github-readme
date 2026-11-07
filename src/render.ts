@@ -53,7 +53,8 @@ const int = (n: number) => Math.round(n).toLocaleString("en-US");
 const compact = (n: number) =>
   n >= 1e9 ? `${(n / 1e9).toFixed(1)}B` : n >= 1e6 ? `${(n / 1e6).toFixed(n >= 1e8 ? 0 : 1)}M` : int(n);
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const delay = (ms: number) => `animation-delay:${Math.round(ms)}ms`;
+// Starts late and slow enough to still be visible after the GitHub page has settled.
+const delay = (ms: number) => `animation-delay:${Math.round(500 + ms * 1.4)}ms`;
 const toDate = (key: string) => new Date(`${key}T00:00:00Z`).getTime();
 const keyOf = (ms: number) => new Date(ms).toISOString().slice(0, 10);
 const dateLabel = (ms: number, options: Intl.DateTimeFormatOptions) =>
@@ -144,24 +145,21 @@ function githubSection(config: Config, github: GitHubStats, t: Theme, y: number,
     [github.repos, "repositories"],
   ];
   const grid = stats
-    .map(([value, label], i) => stat(X0 + (i % 3) * 112, y + 66 + Math.floor(i / 3) * 64, int(value), label, 28, ms + 60 + i * 60))
+    .map(([value, label], i) => stat(X0 + (i % 3) * 112, y + 52 + Math.floor(i / 3) * 64, int(value), label, 28, ms + 60 + i * 60))
     .join("\n");
-  const scope = config.owners === "auto" ? "my repos and orgs" : config.owners.join(", ");
   const lx = 440;
   const slices = withOther(
     github.languages.slice(0, config.languages).map(([name, p], i) => ({ name, share: p / 100, color: LANG_COLORS[i] })),
     t,
   );
   return {
-    height: 186,
+    height: 172,
     body: `
 ${eyebrow(X0, y, "GitHub", ms)}
-<text x="${X0}" y="${y + 18}" class="up" style="${delay(ms + 20)}">${esc(scope)}</text>
 ${grid}
 ${eyebrow(lx, y, "Languages", ms)}
-<text x="${lx}" y="${y + 18}" class="up" style="${delay(ms + 20)}">by bytes of code</text>
-${stackedBar("langs", lx, y + 34, X1 - lx, slices, ms + 130)}
-${legend(slices, lx, y + 66, X1 - lx, 2, ms + 180)}`,
+${stackedBar("langs", lx, y + 20, X1 - lx, slices, ms + 130)}
+${legend(slices, lx, y + 52, X1 - lx, 2, ms + 180)}`,
   };
 }
 
@@ -289,9 +287,9 @@ text{font-family:${SANS};fill:${t.muted}}
 .ink{fill:${t.ink}}
 .mono{font-family:${MONO}}
 .eyebrow{font-size:11px;letter-spacing:1.4px;font-weight:600}
-.up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
-.pop{animation:pop .5s cubic-bezier(.3,1.6,.5,1) both}
-.grow{animation:grow 1.2s cubic-bezier(.3,.8,.2,1) both}
+.up{animation:up 1.4s cubic-bezier(.2,.7,.2,1) both}
+.pop{animation:pop .8s cubic-bezier(.3,1.6,.5,1) both}
+.grow{animation:grow 1.8s cubic-bezier(.3,.8,.2,1) both}
 @keyframes up{from{opacity:0;transform:translateY(8px)}}
 @keyframes pop{from{transform:scale(0)}}
 @keyframes grow{from{transform:scaleX(0)}}

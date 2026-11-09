@@ -12,6 +12,8 @@ export interface GitHubStats {
   stars: number;
   forks: number;
   repos: number;
+  activeDays: number;
+  longestStreak: number;
   languages: [string, number][];
 }
 
@@ -21,7 +23,10 @@ interface YearTotals {
   issues: number;
   reviews: number;
   created: number;
+  // Private contributions arrive as one count without repositories, so owner filters cannot apply.
+  restricted: number;
   repos: string[];
+  activeDays: string[];
 }
 
 export interface ContributionCache {
@@ -76,13 +81,17 @@ const REPO = "repository { nameWithOwner isPrivate }";
 const BY_REPO = `${REPO} contributions { totalCount }`;
 
 const YEAR_FIELDS = `
+  restrictedContributionsCount
   commitContributionsByRepository(maxRepositories: 100) { ${BY_REPO} }
   pullRequestContributionsByRepository(maxRepositories: 100) { ${BY_REPO} }
   issueContributionsByRepository(maxRepositories: 100) { ${BY_REPO} }
   pullRequestReviewContributionsByRepository(maxRepositories: 100) { ${BY_REPO} }
-  repositoryContributions(first: 100) { nodes { ${REPO} } }`;
+  repositoryContributions(first: 100) { nodes { ${REPO} } }
+  contributionCalendar { weeks { contributionDays { date contributionCount } } }`;
 
 interface YearCollection {
+  restrictedContributionsCount: number;
+  contributionCalendar: { weeks: { contributionDays: { date: string; contributionCount: number }[] }[] };
   commitContributionsByRepository: ByRepo[];
   pullRequestContributionsByRepository: ByRepo[];
   issueContributionsByRepository: ByRepo[];
@@ -115,24 +124,96 @@ function sumYear(c: YearCollection, keep: (repo: RepoRef) => boolean): YearTotal
     issues: sum(c.issueContributionsByRepository),
     reviews: sum(c.pullRequestReviewContributionsByRepository),
     created: c.repositoryContributions.nodes.filter((n) => keep(n.repository)).length,
+    restricted: c.restrictedContributionsCount,
     repos: [...repos],
+    // The calendar includes private contributions, so active days and streaks match the profile.
+    activeDays: c.contributionCalendar.weeks
+      .flatMap((w) => w.contributionDays)
+      .filter((d) => d.contributionCount > 0)
+      .map((d) => d.date),
   };
 }
 
-async function fetchOwnedRepos(gql: Gql, includePrivate: boolean): Promise<RepoRef[]> {
-  const repos: RepoRef[] = [];
+interface Page<T> {
+  nodes: T[];
+  pageInfo: { hasNextPage: boolean; endCursor: string };
+}
+
+async function paginate<T>(fetchPage: (cursor: string | null) => Promise<Page<T>>): Promise<T[]> {
+  const items: T[] = [];
   let cursor: string | null = null;
   do {
-    const { viewer }: { viewer: { repositories: { nodes: RepoRef[]; pageInfo: { hasNextPage: boolean; endCursor: string } } } } = await gql(
+    const page = await fetchPage(cursor);
+    items.push(...page.nodes);
+    cursor = page.pageInfo.hasNextPage ? page.pageInfo.endCursor : null;
+  } while (cursor);
+  return items;
+}
+
+const fetchRepos = (gql: Gql, privacy: "PUBLIC" | null) =>
+  paginate<RepoRef>(async (cursor) => {
+    const { viewer } = await gql<{ viewer: { repositories: Page<RepoRef> } }>(
       `query($cursor: String, $privacy: RepositoryPrivacy) { viewer {
         repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false, privacy: $privacy) {
           nodes { nameWithOwner isPrivate } pageInfo { hasNextPage endCursor } } } }`,
-      { cursor, privacy: includePrivate ? null : "PUBLIC" },
+      { cursor, privacy },
     );
-    repos.push(...viewer.repositories.nodes);
-    cursor = viewer.repositories.pageInfo.hasNextPage ? viewer.repositories.pageInfo.endCursor : null;
-  } while (cursor);
-  return repos;
+    return viewer.repositories;
+  });
+
+// viewer.repositories skips org repos reached through org admin rights, so each owner is listed directly.
+const fetchPrivateRepos = (gql: Gql, owner: string) =>
+  paginate<RepoRef>(async (cursor) => {
+    const { repositoryOwner } = await gql<{ repositoryOwner: { repositories: Page<RepoRef> } | null }>(
+      `query($owner: String!, $cursor: String) { repositoryOwner(login: $owner) {
+        repositories(first: 100, after: $cursor, isFork: false, privacy: PRIVATE) {
+          nodes { nameWithOwner isPrivate } pageInfo { hasNextPage endCursor } } } }`,
+      { owner, cursor },
+    );
+    return repositoryOwner?.repositories ?? { nodes: [], pageInfo: { hasNextPage: false, endCursor: "" } };
+  });
+
+// Includes private pull requests, which contributionsCollection only reports as a restricted count.
+const fetchPullRequests = (gql: Gql) =>
+  paginate<{ repository: RepoRef }>(async (cursor) => {
+    const { viewer } = await gql<{ viewer: { pullRequests: Page<{ repository: RepoRef }> } }>(
+      `query($cursor: String) { viewer { pullRequests(first: 100, after: $cursor) {
+        nodes { ${REPO} } pageInfo { hasNextPage endCursor } } } }`,
+      { cursor },
+    );
+    return viewer.pullRequests;
+  });
+
+// Counts default-branch commits like the contribution calendar does, but per private repo.
+async function countCommits(gql: Gql, authorId: string, names: string[]): Promise<number> {
+  const chunks: string[][] = [];
+  for (let i = 0; i < names.length; i += DETAILS_CHUNK) chunks.push(names.slice(i, i + DETAILS_CHUNK));
+  const results = await Promise.all(
+    chunks.map((chunk) => {
+      const fields = chunk.map((full, i) => {
+        const [owner, name] = full.split("/");
+        return `r${i}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) {
+          defaultBranchRef { target { ... on Commit { history(author: { id: $author }) { totalCount } } } } }`;
+      });
+      type Counted = { defaultBranchRef: { target: { history?: { totalCount: number } } } | null } | null;
+      return gql<Record<string, Counted>>(`query($author: ID!) { ${fields.join("\n")} }`, { author: authorId }, true);
+    }),
+  );
+  return results
+    .flatMap((data) => Object.values(data))
+    .reduce((sum, repo) => sum + (repo?.defaultBranchRef?.target.history?.totalCount ?? 0), 0);
+}
+
+function longestStreak(dates: string[]): number {
+  let best = 0;
+  let current = 0;
+  let previous = Number.NaN;
+  for (const time of dates.map(Date.parse).sort((a, b) => a - b)) {
+    current = time - previous === MS_DAY ? current + 1 : 1;
+    best = Math.max(best, current);
+    previous = time;
+  }
+  return best;
 }
 
 async function fetchRepoDetails(gql: Gql, names: string[]): Promise<RepoDetails[]> {
@@ -165,10 +246,11 @@ export async function fetchGitHub(
 ): Promise<{ stats: GitHubStats; cache: ContributionCache }> {
   const gql = client(token);
   const currentYear = new Date().getUTCFullYear();
-  // The current year rides along with the profile query, and the owned repo list does not depend on it.
-  const [{ viewer }, owned] = await Promise.all([
+  // The current year rides along with the profile query, and the repo lists do not depend on it.
+  const [{ viewer }, owned, pullRequests] = await Promise.all([
     gql<{
       viewer: {
+        id: string;
         login: string;
         name: string | null;
         avatarUrl: string;
@@ -177,13 +259,14 @@ export async function fetchGitHub(
         current: YearCollection;
       };
     }>(
-      `query($from: DateTime!, $to: DateTime!) { viewer { login name avatarUrl(size: 256)
+      `query($from: DateTime!, $to: DateTime!) { viewer { id login name avatarUrl(size: 256)
         organizations(first: 100) { nodes { login } }
         years: contributionsCollection { contributionYears }
         current: contributionsCollection(from: $from, to: $to) { ${YEAR_FIELDS} } } }`,
       yearRange(currentYear),
     ),
-    fetchOwnedRepos(gql, config.includePrivate),
+    fetchRepos(gql, config.includePrivate ? null : "PUBLIC"),
+    fetchPullRequests(gql),
   ]);
 
   const owners = new Set(
@@ -199,6 +282,7 @@ export async function fetchGitHub(
 
   // Finished years rarely change, so they are reused until the settings change or the cache expires.
   const key = JSON.stringify({
+    version: 3,
     login: viewer.login,
     owners: [...owners].sort(),
     includePrivate: config.includePrivate,
@@ -207,6 +291,9 @@ export async function fetchGitHub(
   const valid = cache?.key === key && Date.now() - Date.parse(cache.savedAt) < CACHE_TTL_DAYS * MS_DAY;
   const years: Record<string, YearTotals> = { [currentYear]: sumYear(viewer.current, keep) };
   const avatarPromise = fetchAvatar(viewer.avatarUrl);
+  const privatePromise = config.includePrivate
+    ? Promise.all([...owners].map((owner) => fetchPrivateRepos(gql, owner))).then((lists) => lists.flat())
+    : Promise.resolve([]);
   await Promise.all(
     viewer.years.contributionYears
       .filter((year) => year < currentYear)
@@ -215,8 +302,15 @@ export async function fetchGitHub(
       }),
   );
 
-  const names = new Set([...Object.values(years).flatMap((y) => y.repos), ...owned.filter(keep).map((r) => r.nameWithOwner)]);
-  const [repos, avatar] = await Promise.all([fetchRepoDetails(gql, [...names]), avatarPromise]);
+  const listed = new Set(Object.values(years).flatMap((y) => y.repos));
+  const names = new Set([...listed, ...owned.filter(keep).map((r) => r.nameWithOwner)]);
+  // Private repos already listed by contributionsCollection have their commits counted there.
+  const hidden = (await privatePromise).filter((r) => keep(r) && !listed.has(r.nameWithOwner)).map((r) => r.nameWithOwner);
+  const [repos, privateCommits, avatar] = await Promise.all([
+    fetchRepoDetails(gql, [...names]),
+    countCommits(gql, viewer.id, hidden),
+    avatarPromise,
+  ]);
 
   const skipLanguage = new Set(config.excludeLanguages.map((l) => l.toLowerCase()));
   const bytes = new Map<string, number>();
@@ -226,20 +320,23 @@ export async function fetchGitHub(
     }
   }
   const totalBytes = [...bytes.values()].reduce((a, b) => a + b, 0) || 1;
-  const total = (field: keyof Omit<YearTotals, "repos">) => Object.values(years).reduce((sum, y) => sum + y[field], 0);
+  const activeDays = Object.values(years).flatMap((y) => y.activeDays);
+  const total = (field: keyof Omit<YearTotals, "repos" | "activeDays">) => Object.values(years).reduce((sum, y) => sum + y[field], 0);
 
   const stats: GitHubStats = {
     login: viewer.login,
     name: viewer.name ?? viewer.login,
     avatar,
-    contributions: total("commits") + total("pullRequests") + total("issues") + total("reviews") + total("created"),
-    commits: total("commits"),
-    pullRequests: total("pullRequests"),
+    contributions: total("commits") + total("pullRequests") + total("issues") + total("reviews") + total("created") + total("restricted"),
+    commits: total("commits") + privateCommits,
+    pullRequests: pullRequests.filter((pr) => keep(pr.repository)).length,
     issues: total("issues"),
     reviews: total("reviews"),
     stars: repos.reduce((sum, r) => sum + r.stargazerCount, 0),
     forks: repos.reduce((sum, r) => sum + r.forkCount, 0),
     repos: repos.length,
+    activeDays: activeDays.length,
+    longestStreak: longestStreak(activeDays),
     languages: [...bytes.entries()].sort((a, b) => b[1] - a[1]).map(([name, size]) => [name, (size / totalBytes) * 100]),
   };
   const finished = Object.fromEntries(Object.entries(years).filter(([year]) => Number(year) < currentYear));

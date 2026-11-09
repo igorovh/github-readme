@@ -10,7 +10,7 @@ comes in a light and a dark version.
 
 It shows:
 
-- **GitHub:** contributions, commits, pull requests, code reviews, stars, repositories and languages. Only repos
+- **GitHub:** contributions, commits, pull requests, stars, active days, longest streak and languages. Only repos
   owned by you or your organizations are counted, including private ones if you want.
 - **AI usage** (optional): tokens, spend, active days, streak, leaderboard rank, top models and a daily heatmap
   from [tokenmaxxing.sh](https://tokenmaxxing.sh).
@@ -90,10 +90,13 @@ Example:
 ## How the numbers are counted
 
 - **Contributions** are commits, pull requests, issues, code reviews and created repositories, in repos whose owner is
-  in `owners`. Work in other people's repos is left out on purpose, so the number is lower than the one on your
-  GitHub profile.
-- **Stars, repositories and languages** cover your own repos (forks excluded) plus organization repos you have
-  contributed to.
+  in `owners`, plus all private contributions. GitHub reports private contributions as one number without repos, so
+  `owners` and `excludeRepos` cannot filter them. Public work in other people's repos is left out on purpose.
+- **Commits** are public commits from the contribution graph plus default-branch commits you authored in private repos
+  of `owners`.
+- **Pull requests** are all pull requests you opened in repos of `owners`, private ones included.
+- **Active days and longest streak** come from the contribution calendar, so they match your GitHub profile.
+- **Stars and languages** cover your own repos (forks excluded) plus organization repos you have contributed to.
 - **Languages** are weighted by bytes of code, as GitHub reports them.
 - GitHub lists at most 100 repos per year and contribution type, so very busy years may be slightly undercounted.
 

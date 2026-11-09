@@ -136,16 +136,16 @@ ${avatar}`,
 }
 
 function githubSection(config: Config, github: GitHubStats, t: Theme, y: number, ms: number): Section {
-  const stats: [number, string][] = [
-    [github.contributions, "contributions"],
-    [github.commits, "commits"],
-    [github.pullRequests, "pull requests"],
-    [github.reviews, "code reviews"],
-    [github.stars, "stars earned"],
-    [github.repos, "repositories"],
+  const stats: [string, string][] = [
+    [int(github.contributions), "contributions"],
+    [int(github.commits), "commits"],
+    [int(github.pullRequests), "pull requests"],
+    [int(github.stars), "stars earned"],
+    [int(github.activeDays), "active days"],
+    [`${github.longestStreak}d`, "longest streak"],
   ];
   const grid = stats
-    .map(([value, label], i) => stat(X0 + (i % 3) * 112, y + 52 + Math.floor(i / 3) * 64, int(value), label, 28, ms + 60 + i * 60))
+    .map(([value, label], i) => stat(X0 + (i % 3) * 112, y + 52 + Math.floor(i / 3) * 64, value, label, 28, ms + 60 + i * 60))
     .join("\n");
   const lx = 440;
   const slices = withOther(

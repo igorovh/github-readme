@@ -1,0 +1,2007 @@
+{
+  "generatedAt": "2026-11-14T10:36:30.943Z",
+  "github": {
+    "login": "igorovh",
+    "name": "igor",
+    "contributions": 5149,
+    "commits": 4445,
+    "pullRequests": 549,
+    "issues": 13,
+    "reviews": 38,
+    "stars": 178,
+    "forks": 34,
+    "repos": 99,
+    "activeDays": 697,
+    "longestStreak": 33,
+    "languages": [
+      [
+        "TypeScript",
+        62.326212670004836
+      ],
+      [
+        "Go",
+        10.113963465030153
+      ],
+      [
+        "JavaScript",
+        7.266333708157219
+      ],
+      [
+        "Java",
+        6.7775521350640435
+      ],
+      [
+        "Rust",
+        5.702671798476982
+      ],
+      [
+        "CSS",
+        3.147579662044389
+      ],
+      [
+        "HTML",
+        2.516809089012873
+      ],
+      [
+        "Hack",
+        1.1459656329170815
+      ],
+      [
+        "Svelte",
+        0.24167514993574507
+      ],
+      [
+        "PHP",
+        0.1788110513698571
+      ],
+      [
+        "HCL",
+        0.162682315997254
+      ],
+      [
+        "Dockerfile",
+        0.11720159342660762
+      ],
+      [
+        "MDX",
+        0.11488215911765087
+      ],
+      [
+        "Shell",
+        0.08286406059650073
+      ],
+      [
+        "Swift",
+        0.050969775294689906
+      ],
+      [
+        "D",
+        0.030226933948041206
+      ],
+      [
+        "Makefile",
+        0.015253788622605173
+      ],
+      [
+        "PLpgSQL",
+        0.008345010983470688
+      ]
+    ]
+  },
+  "ai": {
+    "firstDate": "2026-05-05",
+    "totalTokens": 15365125804,
+    "spendUsd": 6087.312655866003,
+    "sessionCount": 1445,
+    "activeDays": 156,
+    "longestStreakDays": 40,
+    "leaderboardRank": 104,
+    "days": [
+      {
+        "date": "2026-05-05",
+        "key": "gpt-5.5",
+        "totalTokens": 15520612
+      },
+      {
+        "date": "2026-05-06",
+        "key": "gpt-5.5",
+        "totalTokens": 24369216
+      },
+      {
+        "date": "2026-05-07",
+        "key": "gpt-5.5",
+        "totalTokens": 17805542
+      },
+      {
+        "date": "2026-05-10",
+        "key": "gpt-5.5",
+        "totalTokens": 18469656
+      },
+      {
+        "date": "2026-05-11",
+        "key": "gpt-5.5",
+        "totalTokens": 1247390
+      },
+      {
+        "date": "2026-05-12",
+        "key": "glm-5.1",
+        "totalTokens": 13545844
+      },
+      {
+        "date": "2026-05-13",
+        "key": "glm-5.1",
+        "totalTokens": 4869528
+      },
+      {
+        "date": "2026-05-16",
+        "key": "glm-5.1",
+        "totalTokens": 32446018
+      },
+      {
+        "date": "2026-05-17",
+        "key": "gpt-5.5",
+        "totalTokens": 16141099
+      },
+      {
+        "date": "2026-05-18",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 2139838
+      },
+      {
+        "date": "2026-05-18",
+        "key": "gpt-5.5",
+        "totalTokens": 22852043
+      },
+      {
+        "date": "2026-05-19",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3808965
+      },
+      {
+        "date": "2026-05-19",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 5571265
+      },
+      {
+        "date": "2026-05-19",
+        "key": "gpt-5.5",
+        "totalTokens": 5212117
+      },
+      {
+        "date": "2026-05-20",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 1194642
+      },
+      {
+        "date": "2026-05-23",
+        "key": "gpt-5.5",
+        "totalTokens": 714575
+      },
+      {
+        "date": "2026-05-25",
+        "key": "gpt-5.5",
+        "totalTokens": 935326
+      },
+      {
+        "date": "2026-05-26",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 18717740
+      },
+      {
+        "date": "2026-05-26",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 4391071
+      },
+      {
+        "date": "2026-05-26",
+        "key": "gpt-5.5",
+        "totalTokens": 7127587
+      },
+      {
+        "date": "2026-05-27",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 7800334
+      },
+      {
+        "date": "2026-05-27",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 2031821
+      },
+      {
+        "date": "2026-05-28",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 2759389
+      },
+      {
+        "date": "2026-05-29",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 640947
+      },
+      {
+        "date": "2026-05-30",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 4934046
+      },
+      {
+        "date": "2026-05-30",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 5434149
+      },
+      {
+        "date": "2026-05-31",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 20428679
+      },
+      {
+        "date": "2026-05-31",
+        "key": "deepseek-v4-pro",
+        "totalTokens": 639860
+      },
+      {
+        "date": "2026-06-01",
+        "key": "kimi-k2.6",
+        "totalTokens": 18150886
+      },
+      {
+        "date": "2026-06-02",
+        "key": "kimi-k2.6",
+        "totalTokens": 9029104
+      },
+      {
+        "date": "2026-06-03",
+        "key": "kimi-k2.6",
+        "totalTokens": 17652197
+      },
+      {
+        "date": "2026-06-04",
+        "key": "cursor-acp/auto",
+        "totalTokens": 49810
+      },
+      {
+        "date": "2026-06-04",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 5764888
+      },
+      {
+        "date": "2026-06-04",
+        "key": "kimi-k2.6",
+        "totalTokens": 6959647
+      },
+      {
+        "date": "2026-06-06",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 10313424
+      },
+      {
+        "date": "2026-06-11",
+        "key": "cursor-acp/gpt-5.5",
+        "totalTokens": 577762
+      },
+      {
+        "date": "2026-06-11",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 23336739
+      },
+      {
+        "date": "2026-06-12",
+        "key": "cursor-acp/gpt-5.5",
+        "totalTokens": 236847
+      },
+      {
+        "date": "2026-06-12",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 24349016
+      },
+      {
+        "date": "2026-06-13",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 6348486
+      },
+      {
+        "date": "2026-06-15",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 244906
+      },
+      {
+        "date": "2026-06-16",
+        "key": "cursor-acp/gpt-5.5",
+        "totalTokens": 1599940
+      },
+      {
+        "date": "2026-06-16",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 38199745
+      },
+      {
+        "date": "2026-06-16",
+        "key": "gpt-5.5",
+        "totalTokens": 1229684
+      },
+      {
+        "date": "2026-06-17",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 73785419
+      },
+      {
+        "date": "2026-06-17",
+        "key": "gpt-5.5",
+        "totalTokens": 10736912
+      },
+      {
+        "date": "2026-06-20",
+        "key": "deepseek-v4-flash-free",
+        "totalTokens": 1492798
+      },
+      {
+        "date": "2026-06-20",
+        "key": "gpt-5.5",
+        "totalTokens": 90480
+      },
+      {
+        "date": "2026-06-21",
+        "key": "deepseek-v4-flash-free",
+        "totalTokens": 2652452
+      },
+      {
+        "date": "2026-06-21",
+        "key": "gpt-5.5",
+        "totalTokens": 10078492
+      },
+      {
+        "date": "2026-06-24",
+        "key": "gpt-5.5",
+        "totalTokens": 1194519
+      },
+      {
+        "date": "2026-06-25",
+        "key": "gpt-5.5",
+        "totalTokens": 3892190
+      },
+      {
+        "date": "2026-06-26",
+        "key": "gpt-5.5",
+        "totalTokens": 7547217
+      },
+      {
+        "date": "2026-06-27",
+        "key": "glm-5.2",
+        "totalTokens": 1711104
+      },
+      {
+        "date": "2026-06-27",
+        "key": "gpt-5.5",
+        "totalTokens": 22215294
+      },
+      {
+        "date": "2026-06-29",
+        "key": "glm-5.2",
+        "totalTokens": 628723
+      },
+      {
+        "date": "2026-06-29",
+        "key": "gpt-5.5",
+        "totalTokens": 5484062
+      },
+      {
+        "date": "2026-06-30",
+        "key": "deepseek-v4-flash-free",
+        "totalTokens": 256301
+      },
+      {
+        "date": "2026-06-30",
+        "key": "glm-5.2",
+        "totalTokens": 35212663
+      },
+      {
+        "date": "2026-06-30",
+        "key": "gpt-5.5",
+        "totalTokens": 38739399
+      },
+      {
+        "date": "2026-07-01",
+        "key": "glm-5.2",
+        "totalTokens": 20950885
+      },
+      {
+        "date": "2026-07-01",
+        "key": "gpt-5.5",
+        "totalTokens": 31762753
+      },
+      {
+        "date": "2026-07-02",
+        "key": "glm-5.2",
+        "totalTokens": 15232468
+      },
+      {
+        "date": "2026-07-02",
+        "key": "gpt-5.5",
+        "totalTokens": 28855763
+      },
+      {
+        "date": "2026-07-03",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 37525802
+      },
+      {
+        "date": "2026-07-03",
+        "key": "glm-5.2",
+        "totalTokens": 29671704
+      },
+      {
+        "date": "2026-07-03",
+        "key": "gpt-5.5",
+        "totalTokens": 1912028
+      },
+      {
+        "date": "2026-07-04",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 14654617
+      },
+      {
+        "date": "2026-07-04",
+        "key": "gpt-5.5",
+        "totalTokens": 453199
+      },
+      {
+        "date": "2026-07-05",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3042311
+      },
+      {
+        "date": "2026-07-07",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 464560
+      },
+      {
+        "date": "2026-07-08",
+        "key": "gpt-5.5",
+        "totalTokens": 62300
+      },
+      {
+        "date": "2026-07-09",
+        "key": "gpt-5.5",
+        "totalTokens": 7190648
+      },
+      {
+        "date": "2026-07-10",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 864322
+      },
+      {
+        "date": "2026-07-11",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 959293
+      },
+      {
+        "date": "2026-07-11",
+        "key": "gpt-5.5",
+        "totalTokens": 9363106
+      },
+      {
+        "date": "2026-07-11",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 3091499
+      },
+      {
+        "date": "2026-07-11",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 1900053
+      },
+      {
+        "date": "2026-07-12",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3120206
+      },
+      {
+        "date": "2026-07-12",
+        "key": "glm-5.2",
+        "totalTokens": 5693482
+      },
+      {
+        "date": "2026-07-12",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 24917832
+      },
+      {
+        "date": "2026-07-12",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 168214
+      },
+      {
+        "date": "2026-07-13",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 1199052
+      },
+      {
+        "date": "2026-07-13",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 23886531
+      },
+      {
+        "date": "2026-07-14",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 7222380
+      },
+      {
+        "date": "2026-07-14",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 50612835
+      },
+      {
+        "date": "2026-07-15",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 2320220
+      },
+      {
+        "date": "2026-07-15",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 80909886
+      },
+      {
+        "date": "2026-07-16",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3713557
+      },
+      {
+        "date": "2026-07-16",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 76320207
+      },
+      {
+        "date": "2026-07-17",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 20803272
+      },
+      {
+        "date": "2026-07-18",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 310747
+      },
+      {
+        "date": "2026-07-18",
+        "key": "claude-opus-4-8",
+        "totalTokens": 3433234
+      },
+      {
+        "date": "2026-07-18",
+        "key": "claude-sonnet-5",
+        "totalTokens": 262328
+      },
+      {
+        "date": "2026-07-18",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 12354108
+      },
+      {
+        "date": "2026-07-18",
+        "key": "gpt-5.5",
+        "totalTokens": 465557
+      },
+      {
+        "date": "2026-07-18",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 130562533
+      },
+      {
+        "date": "2026-07-19",
+        "key": "claude-fable-5",
+        "totalTokens": 901839
+      },
+      {
+        "date": "2026-07-19",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 249005
+      },
+      {
+        "date": "2026-07-19",
+        "key": "claude-opus-4-8",
+        "totalTokens": 2742272
+      },
+      {
+        "date": "2026-07-19",
+        "key": "claude-sonnet-5",
+        "totalTokens": 611869
+      },
+      {
+        "date": "2026-07-19",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 28326492
+      },
+      {
+        "date": "2026-07-19",
+        "key": "deepseek-v4-flash-free",
+        "totalTokens": 988632
+      },
+      {
+        "date": "2026-07-19",
+        "key": "glm-5.2",
+        "totalTokens": 176164
+      },
+      {
+        "date": "2026-07-19",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 98203707
+      },
+      {
+        "date": "2026-07-20",
+        "key": "claude-fable-5",
+        "totalTokens": 21531478
+      },
+      {
+        "date": "2026-07-20",
+        "key": "claude-opus-4-8",
+        "totalTokens": 4638193
+      },
+      {
+        "date": "2026-07-20",
+        "key": "claude-sonnet-5",
+        "totalTokens": 104542
+      },
+      {
+        "date": "2026-07-20",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3107569
+      },
+      {
+        "date": "2026-07-20",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 68367713
+      },
+      {
+        "date": "2026-07-21",
+        "key": "claude-opus-4-8",
+        "totalTokens": 17397844
+      },
+      {
+        "date": "2026-07-21",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 999660
+      },
+      {
+        "date": "2026-07-21",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 6787120
+      },
+      {
+        "date": "2026-07-22",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 115985
+      },
+      {
+        "date": "2026-07-22",
+        "key": "claude-opus-4-8",
+        "totalTokens": 22766380
+      },
+      {
+        "date": "2026-07-22",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 1441697
+      },
+      {
+        "date": "2026-07-22",
+        "key": "glm-5.2",
+        "totalTokens": 9998459
+      },
+      {
+        "date": "2026-07-22",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 23477360
+      },
+      {
+        "date": "2026-07-23",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 13405
+      },
+      {
+        "date": "2026-07-23",
+        "key": "claude-opus-4-8",
+        "totalTokens": 908646
+      },
+      {
+        "date": "2026-07-23",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 3154377
+      },
+      {
+        "date": "2026-07-23",
+        "key": "glm-5.2",
+        "totalTokens": 8235996
+      },
+      {
+        "date": "2026-07-23",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 15586695
+      },
+      {
+        "date": "2026-07-23",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 47276908
+      },
+      {
+        "date": "2026-07-24",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 7824
+      },
+      {
+        "date": "2026-07-24",
+        "key": "claude-opus-4-8",
+        "totalTokens": 12990400
+      },
+      {
+        "date": "2026-07-24",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 552894
+      },
+      {
+        "date": "2026-07-24",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 4353058
+      },
+      {
+        "date": "2026-07-25",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 4070165
+      },
+      {
+        "date": "2026-07-25",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 68456559
+      },
+      {
+        "date": "2026-07-25",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 22073025
+      },
+      {
+        "date": "2026-07-25",
+        "key": "kimi-k3",
+        "totalTokens": 1949981
+      },
+      {
+        "date": "2026-07-26",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 1182468
+      },
+      {
+        "date": "2026-07-26",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 63426175
+      },
+      {
+        "date": "2026-07-26",
+        "key": "kimi-k2.7-code",
+        "totalTokens": 72392
+      },
+      {
+        "date": "2026-07-27",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 1565102
+      },
+      {
+        "date": "2026-07-27",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 34723657
+      },
+      {
+        "date": "2026-07-28",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 2542026
+      },
+      {
+        "date": "2026-07-28",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 54254887
+      },
+      {
+        "date": "2026-07-28",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 28510165
+      },
+      {
+        "date": "2026-07-28",
+        "key": "kimi-k3",
+        "totalTokens": 361186
+      },
+      {
+        "date": "2026-07-29",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 8044379
+      },
+      {
+        "date": "2026-07-29",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 32841781
+      },
+      {
+        "date": "2026-07-29",
+        "key": "kimi-k3",
+        "totalTokens": 5193739
+      },
+      {
+        "date": "2026-07-30",
+        "key": "deepseek-v4-flash",
+        "totalTokens": 2545161
+      },
+      {
+        "date": "2026-07-30",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 15256866
+      },
+      {
+        "date": "2026-07-31",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 1652730
+      },
+      {
+        "date": "2026-08-01",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 71484316
+      },
+      {
+        "date": "2026-08-02",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 21526974
+      },
+      {
+        "date": "2026-08-05",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 1596359
+      },
+      {
+        "date": "2026-08-06",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 2758141
+      },
+      {
+        "date": "2026-08-07",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 29396814
+      },
+      {
+        "date": "2026-08-07",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 259367
+      },
+      {
+        "date": "2026-08-08",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 249242015
+      },
+      {
+        "date": "2026-08-08",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 2181035
+      },
+      {
+        "date": "2026-08-09",
+        "key": "claude-opus-5",
+        "totalTokens": 26345454
+      },
+      {
+        "date": "2026-08-09",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 25205902
+      },
+      {
+        "date": "2026-08-09",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 139975386
+      },
+      {
+        "date": "2026-08-10",
+        "key": "glm-5.2",
+        "totalTokens": 175415
+      },
+      {
+        "date": "2026-08-10",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 330252
+      },
+      {
+        "date": "2026-08-11",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 2000575
+      },
+      {
+        "date": "2026-08-11",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 2418437
+      },
+      {
+        "date": "2026-08-11",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 9054851
+      },
+      {
+        "date": "2026-08-12",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 4644324
+      },
+      {
+        "date": "2026-08-13",
+        "key": "claude-opus-5",
+        "totalTokens": 61174525
+      },
+      {
+        "date": "2026-08-13",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 50304299
+      },
+      {
+        "date": "2026-08-14",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 182270150
+      },
+      {
+        "date": "2026-08-22",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 5413944
+      },
+      {
+        "date": "2026-08-26",
+        "key": "claude-opus-5",
+        "totalTokens": 18618
+      },
+      {
+        "date": "2026-08-26",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 41389351
+      },
+      {
+        "date": "2026-08-26",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 20472
+      },
+      {
+        "date": "2026-08-27",
+        "key": "glm-5.3-flash",
+        "totalTokens": 29242174
+      },
+      {
+        "date": "2026-08-27",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 21717627
+      },
+      {
+        "date": "2026-08-27",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 175045
+      },
+      {
+        "date": "2026-08-28",
+        "key": "glm-5.3-flash",
+        "totalTokens": 3344979
+      },
+      {
+        "date": "2026-08-29",
+        "key": "glm-5.3-flash",
+        "totalTokens": 121283168
+      },
+      {
+        "date": "2026-08-29",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 956794
+      },
+      {
+        "date": "2026-08-30",
+        "key": "glm-5.3-flash",
+        "totalTokens": 10958042
+      },
+      {
+        "date": "2026-08-30",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 25594320
+      },
+      {
+        "date": "2026-08-30",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 424547
+      },
+      {
+        "date": "2026-08-31",
+        "key": "glm-5.3-flash",
+        "totalTokens": 25734554
+      },
+      {
+        "date": "2026-08-31",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 10229984
+      },
+      {
+        "date": "2026-09-01",
+        "key": "glm-5.3-flash",
+        "totalTokens": 104386147
+      },
+      {
+        "date": "2026-09-02",
+        "key": "claude-opus-5",
+        "totalTokens": 99047855
+      },
+      {
+        "date": "2026-09-02",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 11355409
+      },
+      {
+        "date": "2026-09-03",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 37715983
+      },
+      {
+        "date": "2026-09-04",
+        "key": "glm-5.3-flash",
+        "totalTokens": 710941
+      },
+      {
+        "date": "2026-09-04",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 24817538
+      },
+      {
+        "date": "2026-09-04",
+        "key": "stepfun/step-3.7-flash:free",
+        "totalTokens": 12236
+      },
+      {
+        "date": "2026-09-05",
+        "key": "glm-5.3-flash",
+        "totalTokens": 14608270
+      },
+      {
+        "date": "2026-09-05",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 52655353
+      },
+      {
+        "date": "2026-09-06",
+        "key": "glm-5.3-flash",
+        "totalTokens": 30970045
+      },
+      {
+        "date": "2026-09-06",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 12148971
+      },
+      {
+        "date": "2026-09-06",
+        "key": "gpt-6-astra",
+        "totalTokens": 3693066
+      },
+      {
+        "date": "2026-09-07",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 11548638
+      },
+      {
+        "date": "2026-09-08",
+        "key": "glm-5.3-flash",
+        "totalTokens": 52500112
+      },
+      {
+        "date": "2026-09-08",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 16045555
+      },
+      {
+        "date": "2026-09-09",
+        "key": "glm-5.3-flash",
+        "totalTokens": 33968858
+      },
+      {
+        "date": "2026-09-09",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 7967362
+      },
+      {
+        "date": "2026-09-10",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 27281892
+      },
+      {
+        "date": "2026-09-12",
+        "key": "claude-opus-5",
+        "totalTokens": 92046876
+      },
+      {
+        "date": "2026-09-12",
+        "key": "glm-5.3-flash",
+        "totalTokens": 83346906
+      },
+      {
+        "date": "2026-09-12",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 21931112
+      },
+      {
+        "date": "2026-09-12",
+        "key": "gpt-5.6-terra",
+        "totalTokens": 1654974
+      },
+      {
+        "date": "2026-09-12",
+        "key": "gpt-6-astra",
+        "totalTokens": 6231055
+      },
+      {
+        "date": "2026-09-13",
+        "key": "claude-opus-5",
+        "totalTokens": 47676328
+      },
+      {
+        "date": "2026-09-13",
+        "key": "glm-5.3-flash",
+        "totalTokens": 20100762
+      },
+      {
+        "date": "2026-09-13",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 16516948
+      },
+      {
+        "date": "2026-09-13",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 19278390
+      },
+      {
+        "date": "2026-09-13",
+        "key": "gpt-6-astra",
+        "totalTokens": 4480173
+      },
+      {
+        "date": "2026-09-14",
+        "key": "claude-opus-5",
+        "totalTokens": 48049349
+      },
+      {
+        "date": "2026-09-14",
+        "key": "glm-5.3-flash",
+        "totalTokens": 133336078
+      },
+      {
+        "date": "2026-09-14",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 30901330
+      },
+      {
+        "date": "2026-09-15",
+        "key": "claude-opus-5",
+        "totalTokens": 30184130
+      },
+      {
+        "date": "2026-09-15",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 2906744
+      },
+      {
+        "date": "2026-09-16",
+        "key": "claude-opus-5",
+        "totalTokens": 86134
+      },
+      {
+        "date": "2026-09-16",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 14475019
+      },
+      {
+        "date": "2026-09-17",
+        "key": "claude-opus-5",
+        "totalTokens": 5376909
+      },
+      {
+        "date": "2026-09-17",
+        "key": "glm-5.3-flash",
+        "totalTokens": 4224473
+      },
+      {
+        "date": "2026-09-17",
+        "key": "gpt-6-astra",
+        "totalTokens": 646802
+      },
+      {
+        "date": "2026-09-18",
+        "key": "claude-opus-5",
+        "totalTokens": 81184097
+      },
+      {
+        "date": "2026-09-18",
+        "key": "glm-5.3-flash",
+        "totalTokens": 6983630
+      },
+      {
+        "date": "2026-09-18",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 169477
+      },
+      {
+        "date": "2026-09-18",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 27714460
+      },
+      {
+        "date": "2026-09-18",
+        "key": "gpt-6-astra",
+        "totalTokens": 14387064
+      },
+      {
+        "date": "2026-09-19",
+        "key": "claude-opus-5",
+        "totalTokens": 5531258
+      },
+      {
+        "date": "2026-09-19",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 74095
+      },
+      {
+        "date": "2026-09-20",
+        "key": "claude-opus-5",
+        "totalTokens": 109239387
+      },
+      {
+        "date": "2026-09-20",
+        "key": "glm-5.3-flash",
+        "totalTokens": 58645312
+      },
+      {
+        "date": "2026-09-20",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 58865871
+      },
+      {
+        "date": "2026-09-21",
+        "key": "claude-opus-5",
+        "totalTokens": 70345448
+      },
+      {
+        "date": "2026-09-21",
+        "key": "glm-5.3-flash",
+        "totalTokens": 98257581
+      },
+      {
+        "date": "2026-09-21",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 179680
+      },
+      {
+        "date": "2026-09-21",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 57617698
+      },
+      {
+        "date": "2026-09-22",
+        "key": "claude-opus-5",
+        "totalTokens": 37118
+      },
+      {
+        "date": "2026-09-22",
+        "key": "claude-opus-5-5",
+        "totalTokens": 87585500
+      },
+      {
+        "date": "2026-09-22",
+        "key": "glm-5.3-flash",
+        "totalTokens": 37745526
+      },
+      {
+        "date": "2026-09-22",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 204757
+      },
+      {
+        "date": "2026-09-22",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 27636696
+      },
+      {
+        "date": "2026-09-22",
+        "key": "gpt-6-sol",
+        "totalTokens": 28244155
+      },
+      {
+        "date": "2026-09-23",
+        "key": "claude-opus-5",
+        "totalTokens": 8553158
+      },
+      {
+        "date": "2026-09-23",
+        "key": "claude-opus-5-5",
+        "totalTokens": 50231245
+      },
+      {
+        "date": "2026-09-23",
+        "key": "glm-5.3-flash",
+        "totalTokens": 44900617
+      },
+      {
+        "date": "2026-09-23",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 411636
+      },
+      {
+        "date": "2026-09-23",
+        "key": "gpt-6-astra",
+        "totalTokens": 3418266
+      },
+      {
+        "date": "2026-09-23",
+        "key": "gpt-6-sol",
+        "totalTokens": 48910511
+      },
+      {
+        "date": "2026-09-24",
+        "key": "claude-opus-5-5",
+        "totalTokens": 76416407
+      },
+      {
+        "date": "2026-09-24",
+        "key": "glm-5.3-flash",
+        "totalTokens": 23696441
+      },
+      {
+        "date": "2026-09-24",
+        "key": "gpt-6-sol",
+        "totalTokens": 39491892
+      },
+      {
+        "date": "2026-09-25",
+        "key": "claude-opus-5-5",
+        "totalTokens": 43406957
+      },
+      {
+        "date": "2026-09-25",
+        "key": "glm-5.3-flash",
+        "totalTokens": 30046513
+      },
+      {
+        "date": "2026-09-25",
+        "key": "gpt-6-sol",
+        "totalTokens": 3237353
+      },
+      {
+        "date": "2026-09-26",
+        "key": "claude-opus-5-5",
+        "totalTokens": 88878460
+      },
+      {
+        "date": "2026-09-26",
+        "key": "glm-5.3-flash",
+        "totalTokens": 11511573
+      },
+      {
+        "date": "2026-09-26",
+        "key": "gpt-6-sol",
+        "totalTokens": 39931626
+      },
+      {
+        "date": "2026-09-27",
+        "key": "claude-opus-5-5",
+        "totalTokens": 114997317
+      },
+      {
+        "date": "2026-09-27",
+        "key": "glm-5.3-flash",
+        "totalTokens": 66758331
+      },
+      {
+        "date": "2026-09-27",
+        "key": "gpt-6-sol",
+        "totalTokens": 66549948
+      },
+      {
+        "date": "2026-09-28",
+        "key": "claude-opus-5-5",
+        "totalTokens": 44851349
+      },
+      {
+        "date": "2026-09-28",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 346970
+      },
+      {
+        "date": "2026-09-28",
+        "key": "glm-5.3-flash",
+        "totalTokens": 8173456
+      },
+      {
+        "date": "2026-09-28",
+        "key": "gpt-6-sol",
+        "totalTokens": 42848318
+      },
+      {
+        "date": "2026-09-29",
+        "key": "claude-opus-5-5",
+        "totalTokens": 46221278
+      },
+      {
+        "date": "2026-09-29",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 5757410
+      },
+      {
+        "date": "2026-10-02",
+        "key": "claude-opus-5-5",
+        "totalTokens": 31899475
+      },
+      {
+        "date": "2026-10-02",
+        "key": "glm-5.3-flash",
+        "totalTokens": 161873
+      },
+      {
+        "date": "2026-10-02",
+        "key": "gpt-5.6-sol",
+        "totalTokens": 13343
+      },
+      {
+        "date": "2026-10-02",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 20192342
+      },
+      {
+        "date": "2026-10-03",
+        "key": "claude-opus-5-5",
+        "totalTokens": 116546480
+      },
+      {
+        "date": "2026-10-03",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 10438365
+      },
+      {
+        "date": "2026-10-03",
+        "key": "glm-5.3-flash",
+        "totalTokens": 74743469
+      },
+      {
+        "date": "2026-10-03",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 80817367
+      },
+      {
+        "date": "2026-10-03",
+        "key": "longcat-2.5-preview-free",
+        "totalTokens": 3144231
+      },
+      {
+        "date": "2026-10-03",
+        "key": "mimo-v2.6-flash-free",
+        "totalTokens": 4852506
+      },
+      {
+        "date": "2026-10-03",
+        "key": "space-bunny-free",
+        "totalTokens": 35891308
+      },
+      {
+        "date": "2026-10-04",
+        "key": "claude-opus-5-5",
+        "totalTokens": 111136336
+      },
+      {
+        "date": "2026-10-04",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 9149327
+      },
+      {
+        "date": "2026-10-04",
+        "key": "glm-5.3-flash",
+        "totalTokens": 114059439
+      },
+      {
+        "date": "2026-10-04",
+        "key": "gpt-6-luna",
+        "totalTokens": 1033468
+      },
+      {
+        "date": "2026-10-04",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 361828555
+      },
+      {
+        "date": "2026-10-05",
+        "key": "claude-opus-5-5",
+        "totalTokens": 41670088
+      },
+      {
+        "date": "2026-10-05",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 49327697
+      },
+      {
+        "date": "2026-10-06",
+        "key": "claude-opus-5-5",
+        "totalTokens": 41111408
+      },
+      {
+        "date": "2026-10-06",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 6741200
+      },
+      {
+        "date": "2026-10-06",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 78465754
+      },
+      {
+        "date": "2026-10-07",
+        "key": "claude-opus-5-5",
+        "totalTokens": 79332986
+      },
+      {
+        "date": "2026-10-07",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 23523958
+      },
+      {
+        "date": "2026-10-07",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 41240998
+      },
+      {
+        "date": "2026-10-07",
+        "key": "muse-spark-1.3-contributor-free",
+        "totalTokens": 32407776
+      },
+      {
+        "date": "2026-10-08",
+        "key": "claude-opus-5-5",
+        "totalTokens": 105508424
+      },
+      {
+        "date": "2026-10-08",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 5865915
+      },
+      {
+        "date": "2026-10-08",
+        "key": "muse-spark-1.3-contributor-free",
+        "totalTokens": 2148210
+      },
+      {
+        "date": "2026-10-09",
+        "key": "claude-opus-5-5",
+        "totalTokens": 280635389
+      },
+      {
+        "date": "2026-10-10",
+        "key": "claude-fable-5-1",
+        "totalTokens": 3584687
+      },
+      {
+        "date": "2026-10-10",
+        "key": "claude-haiku-4-5-20251001",
+        "totalTokens": 1091
+      },
+      {
+        "date": "2026-10-10",
+        "key": "claude-opus-5-5",
+        "totalTokens": 215537296
+      },
+      {
+        "date": "2026-10-10",
+        "key": "glm-5.3-flash",
+        "totalTokens": 10083504
+      },
+      {
+        "date": "2026-10-11",
+        "key": "claude-opus-5-5",
+        "totalTokens": 276393955
+      },
+      {
+        "date": "2026-10-12",
+        "key": "claude-opus-5-5",
+        "totalTokens": 231366435
+      },
+      {
+        "date": "2026-10-12",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 360233
+      },
+      {
+        "date": "2026-10-13",
+        "key": "claude-opus-5-5",
+        "totalTokens": 99234188
+      },
+      {
+        "date": "2026-10-14",
+        "key": "claude-opus-5-5",
+        "totalTokens": 51652643
+      },
+      {
+        "date": "2026-10-15",
+        "key": "claude-opus-5-5",
+        "totalTokens": 50030617
+      },
+      {
+        "date": "2026-10-16",
+        "key": "claude-opus-5-5",
+        "totalTokens": 80455753
+      },
+      {
+        "date": "2026-10-16",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 665856
+      },
+      {
+        "date": "2026-10-17",
+        "key": "claude-opus-5-5",
+        "totalTokens": 374027255
+      },
+      {
+        "date": "2026-10-17",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 65075342
+      },
+      {
+        "date": "2026-10-18",
+        "key": "claude-opus-5-5",
+        "totalTokens": 198157552
+      },
+      {
+        "date": "2026-10-18",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 2065404
+      },
+      {
+        "date": "2026-10-19",
+        "key": "claude-opus-5-5",
+        "totalTokens": 100997322
+      },
+      {
+        "date": "2026-10-19",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 234997
+      },
+      {
+        "date": "2026-10-20",
+        "key": "claude-opus-5-5",
+        "totalTokens": 27130391
+      },
+      {
+        "date": "2026-10-21",
+        "key": "claude-opus-5-5",
+        "totalTokens": 177121245
+      },
+      {
+        "date": "2026-10-21",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 12897071
+      },
+      {
+        "date": "2026-10-21",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 14336363
+      },
+      {
+        "date": "2026-10-22",
+        "key": "claude-fable-5-1",
+        "totalTokens": 5478306
+      },
+      {
+        "date": "2026-10-22",
+        "key": "claude-opus-5-5",
+        "totalTokens": 195462715
+      },
+      {
+        "date": "2026-10-23",
+        "key": "claude-opus-5-5",
+        "totalTokens": 123583018
+      },
+      {
+        "date": "2026-10-23",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 20461818
+      },
+      {
+        "date": "2026-10-23",
+        "key": "glm-5.3-flash",
+        "totalTokens": 356082
+      },
+      {
+        "date": "2026-10-23",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 1411724
+      },
+      {
+        "date": "2026-10-23",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 246621
+      },
+      {
+        "date": "2026-10-23",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 42395
+      },
+      {
+        "date": "2026-10-24",
+        "key": "claude-fable-5-1",
+        "totalTokens": 7739580
+      },
+      {
+        "date": "2026-10-24",
+        "key": "claude-opus-5-5",
+        "totalTokens": 152944475
+      },
+      {
+        "date": "2026-10-24",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 3247259
+      },
+      {
+        "date": "2026-10-24",
+        "key": "glm-5.3-flash",
+        "totalTokens": 16958923
+      },
+      {
+        "date": "2026-10-24",
+        "key": "gpt-5.6-luna",
+        "totalTokens": 4631094
+      },
+      {
+        "date": "2026-10-24",
+        "key": "gpt-6-astra",
+        "totalTokens": 5843029
+      },
+      {
+        "date": "2026-10-25",
+        "key": "claude-fable-5-1",
+        "totalTokens": 1713507
+      },
+      {
+        "date": "2026-10-25",
+        "key": "claude-opus-5-5",
+        "totalTokens": 379457802
+      },
+      {
+        "date": "2026-10-25",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 6682503
+      },
+      {
+        "date": "2026-10-25",
+        "key": "glm-5.3-flash",
+        "totalTokens": 6350031
+      },
+      {
+        "date": "2026-10-26",
+        "key": "claude-opus-5-5",
+        "totalTokens": 93507993
+      },
+      {
+        "date": "2026-10-27",
+        "key": "claude-fable-5-1",
+        "totalTokens": 422759
+      },
+      {
+        "date": "2026-10-27",
+        "key": "claude-haiku-5-5",
+        "totalTokens": 436896
+      },
+      {
+        "date": "2026-10-27",
+        "key": "claude-opus-5-5",
+        "totalTokens": 140334676
+      },
+      {
+        "date": "2026-10-27",
+        "key": "glm-5.3-flash",
+        "totalTokens": 45564
+      },
+      {
+        "date": "2026-10-27",
+        "key": "gpt-6-luna",
+        "totalTokens": 63135
+      },
+      {
+        "date": "2026-10-27",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 27857
+      },
+      {
+        "date": "2026-10-28",
+        "key": "claude-fable-5-1",
+        "totalTokens": 3268270
+      },
+      {
+        "date": "2026-10-28",
+        "key": "claude-opus-5-5",
+        "totalTokens": 161573313
+      },
+      {
+        "date": "2026-10-28",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 11945550
+      },
+      {
+        "date": "2026-10-28",
+        "key": "glm-5.3-flash",
+        "totalTokens": 6926118
+      },
+      {
+        "date": "2026-10-28",
+        "key": "gpt-6-astra",
+        "totalTokens": 1194231
+      },
+      {
+        "date": "2026-10-28",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 3375044
+      },
+      {
+        "date": "2026-10-29",
+        "key": "claude-opus-5-5",
+        "totalTokens": 391534274
+      },
+      {
+        "date": "2026-10-29",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 8596010
+      },
+      {
+        "date": "2026-10-29",
+        "key": "flint-40b-free",
+        "totalTokens": 17205
+      },
+      {
+        "date": "2026-10-29",
+        "key": "glm-5.3-flash",
+        "totalTokens": 3872161
+      },
+      {
+        "date": "2026-10-29",
+        "key": "gpt-6-astra",
+        "totalTokens": 12239237
+      },
+      {
+        "date": "2026-10-29",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 9644509
+      },
+      {
+        "date": "2026-10-29",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 3687776
+      },
+      {
+        "date": "2026-10-30",
+        "key": "claude-opus-5-5",
+        "totalTokens": 241371733
+      },
+      {
+        "date": "2026-10-30",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 5105742
+      },
+      {
+        "date": "2026-10-30",
+        "key": "gpt-6.1-terra",
+        "totalTokens": 5815664
+      },
+      {
+        "date": "2026-10-30",
+        "key": "muse-spark-1.3-contributor",
+        "totalTokens": 363433
+      },
+      {
+        "date": "2026-10-31",
+        "key": "claude-fable-5-1",
+        "totalTokens": 373770
+      },
+      {
+        "date": "2026-10-31",
+        "key": "claude-haiku-5-5",
+        "totalTokens": 587029
+      },
+      {
+        "date": "2026-10-31",
+        "key": "claude-opus-5-5",
+        "totalTokens": 970853109
+      },
+      {
+        "date": "2026-10-31",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 796608
+      },
+      {
+        "date": "2026-10-31",
+        "key": "gpt-6.1-terra",
+        "totalTokens": 108972652
+      },
+      {
+        "date": "2026-11-01",
+        "key": "claude-opus-5-5",
+        "totalTokens": 532485677
+      },
+      {
+        "date": "2026-11-01",
+        "key": "opus",
+        "totalTokens": 529868161
+      },
+      {
+        "date": "2026-11-02",
+        "key": "claude-haiku-5-5",
+        "totalTokens": 1237943
+      },
+      {
+        "date": "2026-11-02",
+        "key": "claude-opus-5-5",
+        "totalTokens": 407058667
+      },
+      {
+        "date": "2026-11-02",
+        "key": "claude-sonnet-5-5",
+        "totalTokens": 88510
+      },
+      {
+        "date": "2026-11-02",
+        "key": "opus",
+        "totalTokens": 764804
+      },
+      {
+        "date": "2026-11-03",
+        "key": "claude-fable-5-1",
+        "totalTokens": 1289738
+      },
+      {
+        "date": "2026-11-03",
+        "key": "claude-opus-5-5",
+        "totalTokens": 56594074
+      },
+      {
+        "date": "2026-11-04",
+        "key": "claude-opus-5-5",
+        "totalTokens": 31627773
+      },
+      {
+        "date": "2026-11-05",
+        "key": "claude-fable-5-1",
+        "totalTokens": 687420
+      },
+      {
+        "date": "2026-11-05",
+        "key": "claude-opus-5-5",
+        "totalTokens": 87071966
+      },
+      {
+        "date": "2026-11-06",
+        "key": "claude-opus-5-5",
+        "totalTokens": 333220317
+      },
+      {
+        "date": "2026-11-07",
+        "key": "claude-opus-5-5",
+        "totalTokens": 24035286
+      },
+      {
+        "date": "2026-11-08",
+        "key": "claude-opus-5-5",
+        "totalTokens": 358018982
+      },
+      {
+        "date": "2026-11-09",
+        "key": "claude-fable-5-2",
+        "totalTokens": 12561430
+      },
+      {
+        "date": "2026-11-09",
+        "key": "claude-opus-5-5",
+        "totalTokens": 37222934
+      },
+      {
+        "date": "2026-11-09",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 4335449
+      },
+      {
+        "date": "2026-11-10",
+        "key": "claude-opus-5-5",
+        "totalTokens": 28259689
+      },
+      {
+        "date": "2026-11-10",
+        "key": "gpt-6.1-sol",
+        "totalTokens": 7427598
+      }
+    ]
+  }
+}

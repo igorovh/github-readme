@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="856" viewBox="0 0 840 856" role="img" aria-label="igor: GitHub and AI usage stats">
+<title>igor: GitHub and AI usage stats</title>
+<style>
+svg{font-size:12px}
+text{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#7A776E}
+.serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,ui-serif,serif;fill:#2B2A26}
+.ink{fill:#2B2A26}
+.mono{font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace}
+.eyebrow{font-size:11px;letter-spacing:1.4px;font-weight:600}
+.up{animation:up 1.4s cubic-bezier(.2,.7,.2,1) both}
+.pop{animation:pop .8s cubic-bezier(.3,1.6,.5,1) both}
+.grow{animation:grow 1.8s cubic-bezier(.3,.8,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(8px)}}
+@keyframes pop{from{transform:scale(0)}}
+@keyframes grow{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+<text x="18" y="84" class="serif up" font-size="52" style="animation-delay:612ms">hi, i’m <tspan fill="#E8919F" font-style="italic">igor</tspan></text>
+<text x="20" y="124" class="up" font-size="15" style="animation-delay:780ms">developer, mostly typescript and java.</text>
+<text x="20" y="148" class="up" font-size="15" style="animation-delay:892ms">building <tspan class="ink" font-weight="600">Enhancer</tspan>, a browser extension for twitch and kick.</text>
+<clipPath id="avatar"><circle cx="760" cy="100" r="60"/></clipPath>
+<g class="up" style="animation-delay:710ms"><image href="data:image/jpeg;base64,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" x="700" y="40" width="120" height="120" clip-path="url(#avatar)"/>
+<circle cx="760" cy="100" r="59.5" fill="none" stroke="#E7E3D9"/></g>
+<line x1="20" y1="200.5" x2="820" y2="200.5" stroke="#E7E3D9" class="up" style="animation-delay:920ms"/>
+<text x="20" y="244" class="eyebrow up" style="animation-delay:948ms">GITHUB</text>
+<g class="up" style="animation-delay:1032ms"><text x="20" y="296" class="serif" font-size="28">5,149</text><text x="20" y="316">contributions</text></g>
+<g class="up" style="animation-delay:1116ms"><text x="132" y="296" class="serif" font-size="28">4,445</text><text x="132" y="316">commits</text></g>
+<g class="up" style="animation-delay:1200ms"><text x="244" y="296" class="serif" font-size="28">549</text><text x="244" y="316">pull requests</text></g>
+<g class="up" style="animation-delay:1284ms"><text x="20" y="360" class="serif" font-size="28">178</text><text x="20" y="380">stars earned</text></g>
+<g class="up" style="animation-delay:1368ms"><text x="132" y="360" class="serif" font-size="28">697</text><text x="132" y="380">active days</text></g>
+<g class="up" style="animation-delay:1452ms"><text x="244" y="360" class="serif" font-size="28">33d</text><text x="244" y="380">longest streak</text></g>
+<text x="440" y="244" class="eyebrow up" style="animation-delay:948ms">LANGUAGES</text>
+<clipPath id="langs"><rect x="440" y="264" width="380" height="6" rx="3"/></clipPath>
+<g clip-path="url(#langs)"><g class="grow" style="transform-origin:440px 0;animation-delay:1130ms"><rect x="440" y="264" width="234.84" height="6" fill="#E8919F"/><rect x="676.84" y="264" width="36.43" height="6" fill="#8DB8DD"/><rect x="715.27" y="264" width="25.61" height="6" fill="#F1C75F"/><rect x="742.88" y="264" width="23.75" height="6" fill="#AE9BDB"/><rect x="768.64" y="264" width="19.67" height="6" fill="#EE9C7F"/><rect x="790.31" y="264" width="9.96" height="6" fill="#9CC08F"/><rect x="802.27" y="264" width="7.56" height="6" fill="#E3AFCB"/><rect x="811.83" y="264" width="6.17" height="6" fill="#7A776E"/></g></g>
+<g class="up" style="animation-delay:1200ms"><circle cx="444" cy="292" r="4" fill="#E8919F"/><text x="456" y="296" class="ink" font-size="13">TypeScript</text><text x="616" y="296" class="mono" text-anchor="end">62.3%</text></g>
+<g class="up" style="animation-delay:1270ms"><circle cx="444" cy="318" r="4" fill="#8DB8DD"/><text x="456" y="322" class="ink" font-size="13">Go</text><text x="616" y="322" class="mono" text-anchor="end">10.1%</text></g>
+<g class="up" style="animation-delay:1340ms"><circle cx="444" cy="344" r="4" fill="#F1C75F"/><text x="456" y="348" class="ink" font-size="13">JavaScript</text><text x="616" y="348" class="mono" text-anchor="end">7.3%</text></g>
+<g class="up" style="animation-delay:1410ms"><circle cx="444" cy="370" r="4" fill="#AE9BDB"/><text x="456" y="374" class="ink" font-size="13">Java</text><text x="616" y="374" class="mono" text-anchor="end">6.8%</text></g>
+<g class="up" style="animation-delay:1480ms"><circle cx="648" cy="292" r="4" fill="#EE9C7F"/><text x="660" y="296" class="ink" font-size="13">Rust</text><text x="820" y="296" class="mono" text-anchor="end">5.7%</text></g>
+<g class="up" style="animation-delay:1550ms"><circle cx="648" cy="318" r="4" fill="#9CC08F"/><text x="660" y="322" class="ink" font-size="13">CSS</text><text x="820" y="322" class="mono" text-anchor="end">3.1%</text></g>
+<g class="up" style="animation-delay:1620ms"><circle cx="648" cy="344" r="4" fill="#E3AFCB"/><text x="660" y="348" class="ink" font-size="13">HTML</text><text x="820" y="348" class="mono" text-anchor="end">2.5%</text></g>
+<g class="up" style="animation-delay:1690ms"><circle cx="648" cy="370" r="4" fill="#7A776E"/><text x="660" y="374" class="ink" font-size="13">Other</text><text x="820" y="374" class="mono" text-anchor="end">2.1%</text></g>
+<line x1="20" y1="416.5" x2="820" y2="416.5" stroke="#E7E3D9" class="up" style="animation-delay:1452ms"/>
+<text x="20" y="460" class="eyebrow up" style="animation-delay:1480ms">AI USAGE</text>
+<text x="820" y="460" text-anchor="end" font-size="10" class="up" style="animation-delay:1480ms">via tokenmaxxing</text>
+<text x="17" y="530" class="serif up" font-size="64" style="animation-delay:1536ms">15.4B</text>
+<text x="20" y="560" class="up" font-size="14" style="animation-delay:1620ms">tokens across 1,445 sessions since may 2026</text>
+<g class="up" style="animation-delay:1648ms"><text x="428" y="512" class="serif" font-size="26">$6,087</text><text x="428" y="532">spent</text></g>
+<g class="up" style="animation-delay:1704ms"><text x="532" y="512" class="serif" font-size="26">156</text><text x="532" y="532">active days</text></g>
+<g class="up" style="animation-delay:1760ms"><text x="636" y="512" class="serif" font-size="26">40d</text><text x="636" y="532">longest streak</text></g>
+<g class="up" style="animation-delay:1816ms"><text x="740" y="512" class="serif" font-size="26">#104</text><text x="740" y="532">leaderboard</text></g>
+<clipPath id="models"><rect x="20" y="580" width="800" height="6" rx="3"/></clipPath>
+<g clip-path="url(#models)"><g class="grow" style="transform-origin:20px 0;animation-delay:1732ms"><rect x="20" y="580" width="413.94" height="6" fill="#EE9C7F"/><rect x="435.94" y="580" width="65.11" height="6" fill="#E8919F"/><rect x="503.05" y="580" width="50.08" height="6" fill="#9CC08F"/><rect x="555.13" y="580" width="48.74" height="6" fill="#8DB8DD"/><rect x="605.87" y="580" width="33.66" height="6" fill="#AE9BDB"/><rect x="641.53" y="580" width="176.47" height="6" fill="#7A776E"/></g></g>
+<g class="up" style="animation-delay:1732ms"><circle cx="24" cy="608" r="4" fill="#EE9C7F"/><text x="36" y="612" class="ink" font-size="13">claude-opus-5-5</text><text x="272.67" y="612" class="mono" text-anchor="end">52.0%</text></g>
+<g class="up" style="animation-delay:1802ms"><circle cx="24" cy="634" r="4" fill="#E8919F"/><text x="36" y="638" class="ink" font-size="13">glm-5.3-flash</text><text x="272.67" y="638" class="mono" text-anchor="end">8.4%</text></g>
+<g class="up" style="animation-delay:1872ms"><circle cx="304.67" cy="608" r="4" fill="#9CC08F"/><text x="316.67" y="612" class="ink" font-size="13">gpt-5.6-luna</text><text x="539.33" y="612" class="mono" text-anchor="end">6.5%</text></g>
+<g class="up" style="animation-delay:1942ms"><circle cx="304.67" cy="634" r="4" fill="#8DB8DD"/><text x="316.67" y="638" class="ink" font-size="13">gpt-5.6-sol</text><text x="539.33" y="638" class="mono" text-anchor="end">6.3%</text></g>
+<g class="up" style="animation-delay:2012ms"><circle cx="571.33" cy="608" r="4" fill="#AE9BDB"/><text x="583.33" y="612" class="ink" font-size="13">claude-opus-5</text><text x="820" y="612" class="mono" text-anchor="end">4.5%</text></g>
+<g class="up" style="animation-delay:2082ms"><circle cx="571.33" cy="634" r="4" fill="#7A776E"/><text x="583.33" y="638" class="ink" font-size="13">Other</text><text x="820" y="638" class="mono" text-anchor="end">22.3%</text></g>
+<line x1="20" y1="660.5" x2="820" y2="660.5" stroke="#E7E3D9" class="up" style="animation-delay:1984ms"/>
+<text x="20" y="704" class="eyebrow up" style="animation-delay:2012ms">DAILY TOKENS</text>
+<g class="up" style="animation-delay:2068ms"><text x="54" y="728" font-size="11">may</text><text x="129.26" y="728" font-size="11">jun</text><text x="223.33" y="728" font-size="11">jul</text><text x="298.59" y="728" font-size="11">aug</text><text x="392.67" y="728" font-size="11">sep</text><text x="467.93" y="728" font-size="11">oct</text><text x="543.19" y="728" font-size="11">nov</text><text x="20" y="746" font-size="11">mon</text><text x="20" y="778" font-size="11">wed</text><text x="20" y="810" font-size="11">fri</text></g>
+<circle cx="60" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:60px 742px;animation-delay:2096ms"/>
+<circle cx="60" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:60px 758px;animation-delay:2113ms"/>
+<circle cx="60" cy="774" r="6" fill="#EEB3BE" class="pop" style="transform-origin:60px 774px;animation-delay:2130ms"/>
+<circle cx="60" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:60px 790px;animation-delay:2146ms"/>
+<circle cx="60" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:60px 806px;animation-delay:2163ms"/>
+<circle cx="60" cy="822" r="2" fill="#E6E2D7" class="pop" style="transform-origin:60px 822px;animation-delay:2180ms"/>
+<circle cx="60" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:60px 838px;animation-delay:2197ms"/>
+<circle cx="78.81" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:78.81px 742px;animation-delay:2135ms"/>
+<circle cx="78.81" cy="758" r="6" fill="#F4D3D9" class="pop" style="transform-origin:78.81px 758px;animation-delay:2152ms"/>
+<circle cx="78.81" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:78.81px 774px;animation-delay:2169ms"/>
+<circle cx="78.81" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:78.81px 790px;animation-delay:2186ms"/>
+<circle cx="78.81" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:78.81px 806px;animation-delay:2202ms"/>
+<circle cx="78.81" cy="822" r="6" fill="#EEB3BE" class="pop" style="transform-origin:78.81px 822px;animation-delay:2219ms"/>
+<circle cx="78.81" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:78.81px 838px;animation-delay:2236ms"/>
+<circle cx="97.63" cy="742" r="6" fill="#EEB3BE" class="pop" style="transform-origin:97.63px 742px;animation-delay:2174ms"/>
+<circle cx="97.63" cy="758" r="6" fill="#F4D3D9" class="pop" style="transform-origin:97.63px 758px;animation-delay:2191ms"/>
+<circle cx="97.63" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:97.63px 774px;animation-delay:2208ms"/>
+<circle cx="97.63" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:97.63px 790px;animation-delay:2225ms"/>
+<circle cx="97.63" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:97.63px 806px;animation-delay:2242ms"/>
+<circle cx="97.63" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:97.63px 822px;animation-delay:2258ms"/>
+<circle cx="97.63" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:97.63px 838px;animation-delay:2275ms"/>
+<circle cx="116.44" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:116.44px 742px;animation-delay:2214ms"/>
+<circle cx="116.44" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:116.44px 758px;animation-delay:2230ms"/>
+<circle cx="116.44" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:116.44px 774px;animation-delay:2247ms"/>
+<circle cx="116.44" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:116.44px 790px;animation-delay:2264ms"/>
+<circle cx="116.44" cy="806" r="6" fill="#F4D3D9" class="pop" style="transform-origin:116.44px 806px;animation-delay:2281ms"/>
+<circle cx="116.44" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:116.44px 822px;animation-delay:2298ms"/>
+<circle cx="116.44" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:116.44px 838px;animation-delay:2314ms"/>
+<circle cx="135.26" cy="742" r="6" fill="#EEB3BE" class="pop" style="transform-origin:135.26px 742px;animation-delay:2253ms"/>
+<circle cx="135.26" cy="758" r="6" fill="#F4D3D9" class="pop" style="transform-origin:135.26px 758px;animation-delay:2270ms"/>
+<circle cx="135.26" cy="774" r="6" fill="#EEB3BE" class="pop" style="transform-origin:135.26px 774px;animation-delay:2286ms"/>
+<circle cx="135.26" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:135.26px 790px;animation-delay:2303ms"/>
+<circle cx="135.26" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:135.26px 806px;animation-delay:2320ms"/>
+<circle cx="135.26" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:135.26px 822px;animation-delay:2337ms"/>
+<circle cx="135.26" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:135.26px 838px;animation-delay:2354ms"/>
+<circle cx="154.07" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:154.07px 742px;animation-delay:2292ms"/>
+<circle cx="154.07" cy="758" r="2" fill="#E6E2D7" class="pop" style="transform-origin:154.07px 758px;animation-delay:2309ms"/>
+<circle cx="154.07" cy="774" r="2" fill="#E6E2D7" class="pop" style="transform-origin:154.07px 774px;animation-delay:2326ms"/>
+<circle cx="154.07" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:154.07px 790px;animation-delay:2342ms"/>
+<circle cx="154.07" cy="806" r="6" fill="#EEB3BE" class="pop" style="transform-origin:154.07px 806px;animation-delay:2359ms"/>
+<circle cx="154.07" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:154.07px 822px;animation-delay:2376ms"/>
+<circle cx="154.07" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:154.07px 838px;animation-delay:2393ms"/>
+<circle cx="172.89" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:172.89px 742px;animation-delay:2331ms"/>
+<circle cx="172.89" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:172.89px 758px;animation-delay:2348ms"/>
+<circle cx="172.89" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:172.89px 774px;animation-delay:2365ms"/>
+<circle cx="172.89" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:172.89px 790px;animation-delay:2382ms"/>
+<circle cx="172.89" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:172.89px 806px;animation-delay:2398ms"/>
+<circle cx="172.89" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:172.89px 822px;animation-delay:2415ms"/>
+<circle cx="172.89" cy="838" r="6" fill="#F4D3D9" class="pop" style="transform-origin:172.89px 838px;animation-delay:2432ms"/>
+<circle cx="191.7" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:191.7px 742px;animation-delay:2370ms"/>
+<circle cx="191.7" cy="758" r="2" fill="#E6E2D7" class="pop" style="transform-origin:191.7px 758px;animation-delay:2387ms"/>
+<circle cx="191.7" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:191.7px 774px;animation-delay:2404ms"/>
+<circle cx="191.7" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:191.7px 790px;animation-delay:2421ms"/>
+<circle cx="191.7" cy="806" r="6" fill="#F4D3D9" class="pop" style="transform-origin:191.7px 806px;animation-delay:2438ms"/>
+<circle cx="191.7" cy="822" r="6" fill="#EEB3BE" class="pop" style="transform-origin:191.7px 822px;animation-delay:2454ms"/>
+<circle cx="191.7" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:191.7px 838px;animation-delay:2471ms"/>
+<circle cx="210.52" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:210.52px 742px;animation-delay:2410ms"/>
+<circle cx="210.52" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:210.52px 758px;animation-delay:2426ms"/>
+<circle cx="210.52" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:210.52px 774px;animation-delay:2443ms"/>
+<circle cx="210.52" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:210.52px 790px;animation-delay:2460ms"/>
+<circle cx="210.52" cy="806" r="6" fill="#E8919F" class="pop" style="transform-origin:210.52px 806px;animation-delay:2477ms"/>
+<circle cx="210.52" cy="822" r="6" fill="#EEB3BE" class="pop" style="transform-origin:210.52px 822px;animation-delay:2494ms"/>
+<circle cx="210.52" cy="838" r="6" fill="#F4D3D9" class="pop" style="transform-origin:210.52px 838px;animation-delay:2510ms"/>
+<circle cx="229.33" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:229.33px 742px;animation-delay:2449ms"/>
+<circle cx="229.33" cy="758" r="6" fill="#F4D3D9" class="pop" style="transform-origin:229.33px 758px;animation-delay:2466ms"/>
+<circle cx="229.33" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:229.33px 774px;animation-delay:2482ms"/>
+<circle cx="229.33" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:229.33px 790px;animation-delay:2499ms"/>
+<circle cx="229.33" cy="806" r="6" fill="#F4D3D9" class="pop" style="transform-origin:229.33px 806px;animation-delay:2516ms"/>
+<circle cx="229.33" cy="822" r="6" fill="#EEB3BE" class="pop" style="transform-origin:229.33px 822px;animation-delay:2533ms"/>
+<circle cx="229.33" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:229.33px 838px;animation-delay:2550ms"/>
+<circle cx="248.15" cy="742" r="6" fill="#EEB3BE" class="pop" style="transform-origin:248.15px 742px;animation-delay:2488ms"/>
+<circle cx="248.15" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:248.15px 758px;animation-delay:2505ms"/>
+<circle cx="248.15" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:248.15px 774px;animation-delay:2522ms"/>
+<circle cx="248.15" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:248.15px 790px;animation-delay:2538ms"/>
+<circle cx="248.15" cy="806" r="6" fill="#EEB3BE" class="pop" style="transform-origin:248.15px 806px;animation-delay:2555ms"/>
+<circle cx="248.15" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:248.15px 822px;animation-delay:2572ms"/>
+<circle cx="248.15" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:248.15px 838px;animation-delay:2589ms"/>
+<circle cx="266.96" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:266.96px 742px;animation-delay:2527ms"/>
+<circle cx="266.96" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:266.96px 758px;animation-delay:2544ms"/>
+<circle cx="266.96" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:266.96px 774px;animation-delay:2561ms"/>
+<circle cx="266.96" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:266.96px 790px;animation-delay:2578ms"/>
+<circle cx="266.96" cy="806" r="6" fill="#EEB3BE" class="pop" style="transform-origin:266.96px 806px;animation-delay:2594ms"/>
+<circle cx="266.96" cy="822" r="6" fill="#E8919F" class="pop" style="transform-origin:266.96px 822px;animation-delay:2611ms"/>
+<circle cx="266.96" cy="838" r="6" fill="#E8919F" class="pop" style="transform-origin:266.96px 838px;animation-delay:2628ms"/>
+<circle cx="285.78" cy="742" r="6" fill="#EEB3BE" class="pop" style="transform-origin:285.78px 742px;animation-delay:2566ms"/>
+<circle cx="285.78" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:285.78px 758px;animation-delay:2583ms"/>
+<circle cx="285.78" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:285.78px 774px;animation-delay:2600ms"/>
+<circle cx="285.78" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:285.78px 790px;animation-delay:2617ms"/>
+<circle cx="285.78" cy="806" r="6" fill="#F4D3D9" class="pop" style="transform-origin:285.78px 806px;animation-delay:2634ms"/>
+<circle cx="285.78" cy="822" r="6" fill="#E8919F" class="pop" style="transform-origin:285.78px 822px;animation-delay:2650ms"/>
+<circle cx="285.78" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:285.78px 838px;animation-delay:2667ms"/>
+<circle cx="304.59" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:304.59px 742px;animation-delay:2606ms"/>
+<circle cx="304.59" cy="758" r="2" fill="#E6E2D7" class="pop" style="transform-origin:304.59px 758px;animation-delay:2622ms"/>
+<circle cx="304.59" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:304.59px 774px;animation-delay:2639ms"/>
+<circle cx="304.59" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:304.59px 790px;animation-delay:2656ms"/>
+<circle cx="304.59" cy="806" r="6" fill="#EEB3BE" class="pop" style="transform-origin:304.59px 806px;animation-delay:2673ms"/>
+<circle cx="304.59" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:304.59px 822px;animation-delay:2690ms"/>
+<circle cx="304.59" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:304.59px 838px;animation-delay:2706ms"/>
+<circle cx="323.41" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:323.41px 742px;animation-delay:2645ms"/>
+<circle cx="323.41" cy="758" r="6" fill="#F4D3D9" class="pop" style="transform-origin:323.41px 758px;animation-delay:2662ms"/>
+<circle cx="323.41" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:323.41px 774px;animation-delay:2678ms"/>
+<circle cx="323.41" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:323.41px 790px;animation-delay:2695ms"/>
+<circle cx="323.41" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:323.41px 806px;animation-delay:2712ms"/>
+<circle cx="323.41" cy="822" r="2" fill="#E6E2D7" class="pop" style="transform-origin:323.41px 822px;animation-delay:2729ms"/>
+<circle cx="323.41" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:323.41px 838px;animation-delay:2746ms"/>
+<circle cx="342.22" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 742px;animation-delay:2684ms"/>
+<circle cx="342.22" cy="758" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 758px;animation-delay:2701ms"/>
+<circle cx="342.22" cy="774" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 774px;animation-delay:2718ms"/>
+<circle cx="342.22" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 790px;animation-delay:2734ms"/>
+<circle cx="342.22" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 806px;animation-delay:2751ms"/>
+<circle cx="342.22" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:342.22px 822px;animation-delay:2768ms"/>
+<circle cx="342.22" cy="838" r="2" fill="#E6E2D7" class="pop" style="transform-origin:342.22px 838px;animation-delay:2785ms"/>
+<circle cx="361.04" cy="742" r="2" fill="#E6E2D7" class="pop" style="transform-origin:361.04px 742px;animation-delay:2723ms"/>
+<circle cx="361.04" cy="758" r="2" fill="#E6E2D7" class="pop" style="transform-origin:361.04px 758px;animation-delay:2740ms"/>
+<circle cx="361.04" cy="774" r="6" fill="#EEB3BE" class="pop" style="transform-origin:361.04px 774px;animation-delay:2757ms"/>
+<circle cx="361.04" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:361.04px 790px;animation-delay:2774ms"/>
+<circle cx="361.04" cy="806" r="6" fill="#F4D3D9" class="pop" style="transform-origin:361.04px 806px;animation-delay:2790ms"/>
+<circle cx="361.04" cy="822" r="6" fill="#E8919F" class="pop" style="transform-origin:361.04px 822px;animation-delay:2807ms"/>
+<circle cx="361.04" cy="838" r="6" fill="#EEB3BE" class="pop" style="transform-origin:361.04px 838px;animation-delay:2824ms"/>
+<circle cx="379.85" cy="742" r="6" fill="#EEB3BE" class="pop" style="transform-origin:379.85px 742px;animation-delay:2762ms"/>
+<circle cx="379.85" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:379.85px 758px;animation-delay:2779ms"/>
+<circle cx="379.85" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:379.85px 774px;animation-delay:2796ms"/>
+<circle cx="379.85" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:379.85px 790px;animation-delay:2813ms"/>
+<circle cx="379.85" cy="806" r="6" fill="#EEB3BE" class="pop" style="transform-origin:379.85px 806px;animation-delay:2830ms"/>
+<circle cx="379.85" cy="822" r="6" fill="#E8919F" class="pop" style="transform-origin:379.85px 822px;animation-delay:2846ms"/>
+<circle cx="379.85" cy="838" r="6" fill="#E8919F" class="pop" style="transform-origin:379.85px 838px;animation-delay:2863ms"/>
+<circle cx="398.67" cy="742" r="6" fill="#F4D3D9" class="pop" style="transform-origin:398.67px 742px;animation-delay:2802ms"/>
+<circle cx="398.67" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:398.67px 758px;animation-delay:2818ms"/>
+<circle cx="398.67" cy="774" r="6" fill="#EEB3BE" class="pop" style="transform-origin:398.67px 774px;animation-delay:2835ms"/>
+<circle cx="398.67" cy="790" r="6" fill="#EEB3BE" class="pop" style="transform-origin:398.67px 790px;animation-delay:2852ms"/>
+<circle cx="398.67" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:398.67px 806px;animation-delay:2869ms"/>
+<circle cx="398.67" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:398.67px 822px;animation-delay:2886ms"/>
+<circle cx="398.67" cy="838" r="6" fill="#E8919F" class="pop" style="transform-origin:398.67px 838px;animation-delay:2902ms"/>
+<circle cx="417.48" cy="742" r="6" fill="#DD6F86" class="pop" style="transform-origin:417.48px 742px;animation-delay:2841ms"/>
+<circle cx="417.48" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:417.48px 758px;animation-delay:2858ms"/>
+<circle cx="417.48" cy="774" r="6" fill="#F4D3D9" class="pop" style="transform-origin:417.48px 774px;animation-delay:2874ms"/>
+<circle cx="417.48" cy="790" r="6" fill="#F4D3D9" class="pop" style="transform-origin:417.48px 790px;animation-delay:2891ms"/>
+<circle cx="417.48" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:417.48px 806px;animation-delay:2908ms"/>
+<circle cx="417.48" cy="822" r="6" fill="#F4D3D9" class="pop" style="transform-origin:417.48px 822px;animation-delay:2925ms"/>
+<circle cx="417.48" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:417.48px 838px;animation-delay:2942ms"/>
+<circle cx="436.3" cy="742" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 742px;animation-delay:2880ms"/>
+<circle cx="436.3" cy="758" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 758px;animation-delay:2897ms"/>
+<circle cx="436.3" cy="774" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 774px;animation-delay:2914ms"/>
+<circle cx="436.3" cy="790" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 790px;animation-delay:2930ms"/>
+<circle cx="436.3" cy="806" r="6" fill="#E8919F" class="pop" style="transform-origin:436.3px 806px;animation-delay:2947ms"/>
+<circle cx="436.3" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 822px;animation-delay:2964ms"/>
+<circle cx="436.3" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:436.3px 838px;animation-delay:2981ms"/>
+<circle cx="455.11" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:455.11px 742px;animation-delay:2919ms"/>
+<circle cx="455.11" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:455.11px 758px;animation-delay:2936ms"/>
+<circle cx="455.11" cy="774" r="2" fill="#E6E2D7" class="pop" style="transform-origin:455.11px 774px;animation-delay:2953ms"/>
+<circle cx="455.11" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:455.11px 790px;animation-delay:2970ms"/>
+<circle cx="455.11" cy="806" r="6" fill="#E8919F" class="pop" style="transform-origin:455.11px 806px;animation-delay:2986ms"/>
+<circle cx="455.11" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:455.11px 822px;animation-delay:3003ms"/>
+<circle cx="455.11" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:455.11px 838px;animation-delay:3020ms"/>
+<circle cx="473.93" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:473.93px 742px;animation-delay:2958ms"/>
+<circle cx="473.93" cy="758" r="6" fill="#DD6F86" class="pop" style="transform-origin:473.93px 758px;animation-delay:2975ms"/>
+<circle cx="473.93" cy="774" r="6" fill="#DD6F86" class="pop" style="transform-origin:473.93px 774px;animation-delay:2992ms"/>
+<circle cx="473.93" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:473.93px 790px;animation-delay:3009ms"/>
+<circle cx="473.93" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:473.93px 806px;animation-delay:3026ms"/>
+<circle cx="473.93" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:473.93px 822px;animation-delay:3042ms"/>
+<circle cx="473.93" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:473.93px 838px;animation-delay:3059ms"/>
+<circle cx="492.74" cy="742" r="6" fill="#DD6F86" class="pop" style="transform-origin:492.74px 742px;animation-delay:2998ms"/>
+<circle cx="492.74" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:492.74px 758px;animation-delay:3014ms"/>
+<circle cx="492.74" cy="774" r="6" fill="#E8919F" class="pop" style="transform-origin:492.74px 774px;animation-delay:3031ms"/>
+<circle cx="492.74" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:492.74px 790px;animation-delay:3048ms"/>
+<circle cx="492.74" cy="806" r="6" fill="#E8919F" class="pop" style="transform-origin:492.74px 806px;animation-delay:3065ms"/>
+<circle cx="492.74" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:492.74px 822px;animation-delay:3082ms"/>
+<circle cx="492.74" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:492.74px 838px;animation-delay:3098ms"/>
+<circle cx="511.56" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:511.56px 742px;animation-delay:3037ms"/>
+<circle cx="511.56" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:511.56px 758px;animation-delay:3054ms"/>
+<circle cx="511.56" cy="774" r="6" fill="#DD6F86" class="pop" style="transform-origin:511.56px 774px;animation-delay:3070ms"/>
+<circle cx="511.56" cy="790" r="6" fill="#DD6F86" class="pop" style="transform-origin:511.56px 790px;animation-delay:3087ms"/>
+<circle cx="511.56" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:511.56px 806px;animation-delay:3104ms"/>
+<circle cx="511.56" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:511.56px 822px;animation-delay:3121ms"/>
+<circle cx="511.56" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:511.56px 838px;animation-delay:3138ms"/>
+<circle cx="530.37" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:530.37px 742px;animation-delay:3076ms"/>
+<circle cx="530.37" cy="758" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 758px;animation-delay:3093ms"/>
+<circle cx="530.37" cy="774" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 774px;animation-delay:3110ms"/>
+<circle cx="530.37" cy="790" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 790px;animation-delay:3126ms"/>
+<circle cx="530.37" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 806px;animation-delay:3143ms"/>
+<circle cx="530.37" cy="822" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 822px;animation-delay:3160ms"/>
+<circle cx="530.37" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:530.37px 838px;animation-delay:3177ms"/>
+<circle cx="549.19" cy="742" r="6" fill="#DD6F86" class="pop" style="transform-origin:549.19px 742px;animation-delay:3115ms"/>
+<circle cx="549.19" cy="758" r="6" fill="#E8919F" class="pop" style="transform-origin:549.19px 758px;animation-delay:3132ms"/>
+<circle cx="549.19" cy="774" r="6" fill="#EEB3BE" class="pop" style="transform-origin:549.19px 774px;animation-delay:3149ms"/>
+<circle cx="549.19" cy="790" r="6" fill="#E8919F" class="pop" style="transform-origin:549.19px 790px;animation-delay:3166ms"/>
+<circle cx="549.19" cy="806" r="6" fill="#DD6F86" class="pop" style="transform-origin:549.19px 806px;animation-delay:3182ms"/>
+<circle cx="549.19" cy="822" r="6" fill="#EEB3BE" class="pop" style="transform-origin:549.19px 822px;animation-delay:3199ms"/>
+<circle cx="549.19" cy="838" r="6" fill="#DD6F86" class="pop" style="transform-origin:549.19px 838px;animation-delay:3216ms"/>
+<circle cx="568" cy="742" r="6" fill="#E8919F" class="pop" style="transform-origin:568px 742px;animation-delay:3154ms"/>
+<circle cx="568" cy="758" r="6" fill="#EEB3BE" class="pop" style="transform-origin:568px 758px;animation-delay:3171ms"/>
+<circle cx="568" cy="774" r="2" fill="#E6E2D7" class="pop" style="transform-origin:568px 774px;animation-delay:3188ms"/>
+<circle cx="568" cy="790" r="2" fill="#E6E2D7" class="pop" style="transform-origin:568px 790px;animation-delay:3205ms"/>
+<circle cx="568" cy="806" r="2" fill="#E6E2D7" class="pop" style="transform-origin:568px 806px;animation-delay:3222ms"/>
+<circle cx="568" cy="822" r="2" fill="#E6E2D7" class="pop" style="transform-origin:568px 822px;animation-delay:3238ms"/>
+<g class="up" style="animation-delay:2376ms"><text x="624" y="750" class="serif" font-size="24">1.1B</text><text x="624" y="770">peak day, oct 31</text></g>
+<g class="up" style="animation-delay:2488ms"><text x="624" y="808" class="serif" font-size="24">98.5M</text><text x="624" y="828">per active day</text></g>
+<g class="up" style="animation-delay:2600ms"><text x="720" y="750" class="serif" font-size="24">sun</text><text x="720" y="770">busiest day</text></g>
+<g class="up" style="animation-delay:2712ms"><text x="720" y="808" class="serif" font-size="24">44.1M</text><text x="720" y="828">median day</text></g>
+</svg>
